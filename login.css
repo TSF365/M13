@@ -1,0 +1,76 @@
+body {
+    background-image: url('fundod.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    text-align: center;
+    margin-top: 50px;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.container form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container form label,
+.container form input {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.container form input[type="text"],
+.container form input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container form .login {
+    width: 100%;
+    background-color: #11DC00;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container form .login:hover {
+    background-color: #10b302;
+}
+
+.container .registar{
+    background: rgba(255, 255, 255, 0);
+    width: 20%;
+    border: none;
+    padding: 5px;
+    margin: auto;
+    color: aqua;
+}
+
+.container .registar:hover{
+    color: blue;
+}
+
+.container form .erro{
+    color: white;
+}
